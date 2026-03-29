@@ -52,7 +52,7 @@
 html, body {
   overflow: hidden;
   font-family: 'BebasNeueRegular', arial, sans-serif;
-  background: white;
+  background: #0A0A0A;
 }
 
 #global {
@@ -62,7 +62,7 @@ html, body {
   bottom: 0;
   left: 0;
   z-index: 0;
-  background: url('bg.jpg') no-repeat center center fixed;
+  background: #0A0A0A url('bg.jpg') no-repeat center center fixed;
   overflow: hidden;
   text-align: center;
   -moz-background-size: cover;
@@ -122,7 +122,7 @@ html, body {
   font-size: 2em;
   font-family: 'BebasNeueRegular', arial, sans-serif;
   text-transform: uppercase;
-  color: #4190bb;
+  color: #19FF72;
 }
 
 #menu div {
@@ -139,27 +139,27 @@ html, body {
   transition: transform 0.2s ease;
   transform: translateZ(0px) scaleY(0.8);
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjUiLz4KICAgIDxzdG9wIG9mZnNldD0iNjAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjAuNSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjAiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
-  background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 40%, rgba(255,255,255,0.5) 60%, rgba(255,255,255,0) 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(40%,rgba(255,255,255,0.5)), color-stop(60%,rgba(255,255,255,0.5)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0.5) 40%,rgba(255,255,255,0.5) 60%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0.5) 40%,rgba(255,255,255,0.5) 60%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0.5) 40%,rgba(255,255,255,0.5) 60%,rgba(255,255,255,0) 100%); /* IE10+ */
-  background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0.5) 40%,rgba(255,255,255,0.5) 60%,rgba(255,255,255,0) 100%); /* W3C */
+  background: -moz-linear-gradient(left, rgba(25,255,114,0) 0%, rgba(25,255,114,0.5) 40%, rgba(25,255,114,0.5) 60%, rgba(25,255,114,0) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(25,255,114,0)), color-stop(40%,rgba(25,255,114,0.5)), color-stop(60%,rgba(25,255,114,0.5)), color-stop(100%,rgba(25,255,114,0))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, rgba(25,255,114,0) 0%,rgba(25,255,114,0.5) 40%,rgba(25,255,114,0.5) 60%,rgba(25,255,114,0) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, rgba(25,255,114,0) 0%,rgba(25,255,114,0.5) 40%,rgba(25,255,114,0.5) 60%,rgba(25,255,114,0) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, rgba(25,255,114,0) 0%,rgba(25,255,114,0.5) 40%,rgba(25,255,114,0.5) 60%,rgba(25,255,114,0) 100%); /* IE10+ */
+  background: linear-gradient(to right, rgba(25,255,114,0) 0%,rgba(25,255,114,0.5) 40%,rgba(25,255,114,0.5) 60%,rgba(25,255,114,0) 100%); /* W3C */
 }
 
 #menu div:hover {
-  color: #f66439;
+  color: #F5F7F6;
   -webkit-transform: scaleY(1.0);
   transform: scaleY(1.1);
 }
 
 #start {
   font-size: 1.8em;
-  color: #f66439;
+  color: #19FF72;
 }
 
 #start:hover {
-  color: #f8854b !important;
+  color: #F5F7F6 !important;
 }
 
 #step-2 {
@@ -168,11 +168,11 @@ html, body {
   right: 0;
   bottom: 0;
   left: 0;
-  background: black;
+  background: #0A0A0A;
   vertical-align: bottom;
   text-align: center;
   padding: 20px;
-  color: white;
+  color: #F5F7F6;
   font-size: 2em;
   background-repeat: no-repeat;
   background-position: center center;
@@ -189,7 +189,7 @@ html, body {
   right: 0;
   bottom: 0;
   left: 0;
-  background: black;
+  background: #0A0A0A;
 }
 
 #step-3 #progressbar {
@@ -199,7 +199,7 @@ html, body {
   bottom: 0;
   left: 0;
   width: 0%;
-  background: white;
+  background: #19FF72;
 }
 
 #step-5 {
@@ -208,10 +208,10 @@ html, body {
   right: 0;
   bottom: 0;
   left: 0;
-  background: black;
+  background: #0A0A0A;
   text-align: center;
   padding: 100px 20px;
-  color: white;
+  color: #F5F7F6;
   font-size: 2em;
 }
 
@@ -225,8 +225,8 @@ html, body {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(0,0,0,0.8);
-  color: white;
+  background: rgba(10,10,10,0.8);
+  color: #F5F7F6;
   text-align: center;
   font-size: 3em;
   padding-top: 200px;
@@ -240,25 +240,25 @@ html, body {
   bottom: 0;
   left: 0;
   z-index: 9999;
-  background: black;
+  background: #0A0A0A;
   overflow-y: auto;
   text-align: center;
-  color: white;
+  color: #F5F7F6;
   font-size: 1.1em;
   padding: 40px 20px;
 }
 
 #credits h3 {
   font-size: 2em;
-  color: #666;
+  color: #19FF72;
 }
 
 #credits b {
   font-size: 1.2em;
-  color: #bbb;
+  color: #F5F7F6;
 }
 
 #credits h4 {
-  color: #555;
+  color: #19FF72;
   font-size: 1.2em;
 }
